@@ -1,0 +1,9 @@
+<h1>Register</h1>
+hello enter your name
+<form method="post">
+{{form.csrf_token}}
+{{form.username(placeholder=form.username.label.text)}}
+
+{{form.submit(class="btn btn-primary", value="Register")}}
+</form>
+
